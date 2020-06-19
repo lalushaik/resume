@@ -1,0 +1,112 @@
+/* for desktop*/
+body{
+    background-color:#ABC2C4;
+}
+.maindiv{
+    background-color: #77989C;
+    margin:5%;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    height:2300px;
+}
+.leftdiv{
+    background-color: #40949C;
+    width:30%;
+    margin:5%;
+    text-align: center;
+    border-radius:4%;
+    box-shadow: 4px 4px 4px 4px #D7DFE0;
+    position: fixed;
+}
+.rightdiv{
+    background-color: #40949C;
+    width:40%;
+    box-shadow: 4px 4px 4px 4px #D7DFE0;
+    padding:2%;
+    justify-content: space-around;
+    border-radius: 2%;
+    position: absolute;
+    left:50%;
+    margin-top:5%;
+
+}
+img{
+    width:40%;
+}
+.details{
+    display:flex;
+    margin:5%;
+}
+#email{
+    margin:0% 5%;
+}
+.education{
+    display:flex;
+}
+#education1{
+    margin:0% 5%;
+}
+#signature{
+    margin-left: 80%;
+}
+/*for mobile view*/
+@media screen and (min-width:320px) and (max-width:480px){
+    body{
+        background:#CEF4DB;
+    }
+    .maindiv{
+        background:#57DA83;
+        display:inline-block;
+        position:static;
+        height:100%;
+    }
+    .leftdiv{
+        background: #1F6637;
+        width:90%;
+        position:static;
+    }
+    .rightdiv{
+        background: #1F6637;
+        width:92%;
+        position:static;
+    }
+    .details{
+        display:inline-block;
+        margin:5%;
+    }
+}
+/*for tablet view*/
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-color: #afa18b;
+    }
+    .maindiv{
+        background-color: #e0bb5e;
+        display:flex;
+        flex-direction: row-reverse;
+        height:2800px; 
+        margin:5%;
+    }
+    .leftdiv{
+        background-color: #efbb2b;
+        position: static;
+        width:40%;
+        border-radius: 3%;
+        height:10%;
+   
+    }
+    .rightdiv{
+        background-color: #efbb2b;
+        position: static;
+        width:50%;
+        border-radius: 3%;
+
+    }
+    .details{
+        display:inline-block;
+        margin:5%;
+        justify-content: space-evenly;
+    }
+
+}
